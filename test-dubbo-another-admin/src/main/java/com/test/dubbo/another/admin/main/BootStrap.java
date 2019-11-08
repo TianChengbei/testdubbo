@@ -17,7 +17,6 @@ public class BootStrap {
         TestService ser = context.getBean(TestService.class);
         String resp = ser.sayHello("刘鹏");
         System.out.println(resp);
-//        System.in.read();
     }
 
 
